@@ -1,0 +1,39 @@
+*{
+    margin:15px;
+    padding:15px;
+    box-sizing: border-box;
+font-family:'Algerian', cursive;
+}
+h2{
+    color: red;
+}
+h1 {
+    color: blue;
+font-size: 70px;
+}
+
+  ul {
+    list-style-type: none;   /* quita los puntos*/
+   
+}
+ li{
+   background: url("../img/viñeta.png") no-repeat left center;
+    background-size: 15px; /* ajusta el tamaño de la imagen */
+    padding-left: 25px; 
+}
+table {
+    background-color: rgb(19, 190, 85);
+    border-collapse: separate; /* Asegura que las celdas no se fusionen */
+    border-spacing: 10px 20px; /* Espacio entre celdas */
+}
+div {
+    margin: 20px; /* margen uniforme */
+}
+.perfil {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+
+

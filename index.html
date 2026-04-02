@@ -4,57 +4,88 @@
     <meta charset="UTF-8"> <!-- Configura la codificación de caracteres -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ajusta la vista en móviles -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Compatibilidad con navegadores -->
+   <link rel="stylesheet" href="estilos/estilos.css"> <!-- Enlace a la hoja de estilos CSS -->
     <title>Hoja de Vida - Ariel</title> <!-- Título que aparece en la pestaña -->
 </head>
-<body>
-          
-    <h1><center style="color:green;">Hoja de Vida</center/h1> <!-- Encabezado principal -->
-    <hr> <!-- Línea horizontal -->
-
-    <h2 style="color:aquamarine; text-align:center">Datos Personales</h2>
-    <section style="color:brown; text-align:center">
-    <p><strong>Nombre:</strong> Ariel Pilliza</p>
-    <p><strong>Email:</strong> arielpilliza098@gmail.com</p>
-    <p><strong>Teléfono:</strong> +593 983140038</p>
+<body>    
+    <h1>Hoja de Vida</h1> <!-- Encabezado principal -->
+<div>
+    <h2>Datos Personales</h2>
+    <section>
+    <table border="1">
+    <tr>
+        <th>Campo</th>
+        <th>Información</th>
+    </tr>
+    <tr>
+        <td>Nombre</td>
+        <td>Ariel Pilliza</td>
+    </tr>
+    <tr>
+        <td>Email</td>
+        <td>arielpilliza098@gmail.com</td>
+    </tr>
+    <tr>
+        <td>Teléfono</td>
+        <td>+593 983140038</td>
+    </tr>
+</table>
     </section>
-    <h2 style="color:red; text-align:center;">Perfil Profesional</h2>
-    <p style="color:blue; text-align:center">Soy una persona responsable, con interés en el desarrollo web y en aprender nuevas tecnologías.</p>
+    <h2>Perfil Profesional</h2>
+    <img src="img/foto de perfil.jpeg" alt="Foto de perfil" class="perfil"> <!-- fot de perfil -->
+    <p>Soy una persona responsable, con interés en el desarrollo web y en aprender nuevas tecnologías.</p>
+</div>
+<div>
+   <h2>Experiencia</h2>
+<table border="1">
+    <tr>
+        <th>Año</th>
+        <th>Actividad</th>
+    </tr>
+    <tr>
+        <td>2026 - Actualidad</td>
+        <td>Estudiando desarrollo web</td>
+    </tr>
+    <tr>
+        <td>2024 - 2025</td>
+        <td>Pasantía en empresa</td>
+    </tr>
+</table>
 
-    <h2 style="color:red;  font-size: 35px; text-align:center;">Experiencia</h2>
-<!--font-size es para ajustar el tamaño del texto-->
-    <ul style="text-align:center;"> <!-- Lista desordenada -->
-        <strong>2026 - Actualidad:</strong>Estudiando desarrollo web</li>
-        <br>
-        <strong>2024 - 2025:</strong> Pasantía en empresa</li>
-    </ul >
-
-    <h2 style="color:blueviolet; text-align:center;"">Educación</h2>
-    <ul style="text-align:center;">
-        <strong>2024 - 2025:</strong> Bachillerato Técnico</li>
+    <h2>Educación</h2>
+    <ul>
+        <li>2024 - 2025: Bachillerato Técnico</li>
     </ul>
 
-    <h2 style="color:forestgreen; text-align:center;">Habilidades</h2>
-    <ul style="color:darkcyan; text-align:center;">
-
-        HTML, JavaScript
-        <br>
-        HTML,JavaScript
+    <h2>Habilidades</h2>
+    <ul>
+       <li>HTML, JavaScript</li> 
         <!--<br> es para agregar una línea en blanco-->
-        <br>
-        Git y GitHub
-        <br>
-        Trabajo en equipo
+        <li>Git y GitHub</li>
+        <li>Trabajo en equipo</li>
     </ul>
     <!--section es para agregar secciones y poder gestionar mejor la información-->
     <!--style es para agregar estilos colores,tamaño de texto y alinear texto   -->
-          <section style="color:green;">
-            <h2 style="color:blue; font-size: 75px; text-align: center;">Redes Sociales</h2>
-            <!--<p> es para agregar párrafos</p>-->
-<p style="color:greenyellow; text-align:center;">Facebook:Ariel Mauricio</p>
-<p style="color:skyblue; text-align:center;">Instagram:arielpilliza098</p>
-<p style="color:orangered; text-align:center;">Linkedin:ariel_pilliza</p>
-<p style="color:purple; text-align:center;">snaptube:arielpilliza098</p>
-    </section>
+         </div> 
+    <div>
+  <label>Mis Redes Sociales</label>
+  <br>
+  <input type="radio" name="redsocial" id="facebook" value="facebook">
+  <label for="facebook">Facebook: Ariel Mauricio</label>
+  <br>
+  <input type="radio" name="redsocial" id="instagram" value="instagram">
+  <label for="instagram">Instagram: arielpilliza098</label>
+  <br>
+  <input type="radio" name="redsocial" id="linkedin" value="linkedin">
+  <label for="linkedin">LinkedIn: ariel_pilliza</label>
+  <br>
+  <input type="radio" name="redsocial" id="snaptube" value="snaptube">
+  <label for="snaptube">Snaptube: arielpilliza098</label>
+</div>
+<div>
+  <input type="submit" value="Ir al contacto">
+</div>
+
 </body>
 </html>
 
